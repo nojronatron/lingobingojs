@@ -1,39 +1,77 @@
-.color-primary-0 { color: #244592 } /* Main Primary color */
-.color-primary-1 { color: #CED4E1 }
+/* .color-primary-0 { color: #244592 } Main Primary color */
+/* .color-primary-1 { color: #CED4E1 }
 .color-primary-2 { color: #657BAD }
 .color-primary-3 { color: #010B24 }
-.color-primary-4 { color: #0D296A }
+.color-primary-4 { color: #0D296A } */
 
-.color-secondary-1-0 { color: #DBBB22 } /* Main Secondary color (1) */
-.color-secondary-1-1 { color: #FFFBE8 }
+/* .color-secondary-1-0 { color: #DBBB22 } Main Secondary color (1) */
+/* .color-secondary-1-1 { color: #FFFBE8 }
 .color-secondary-1-2 { color: #FFEA87 }
 .color-secondary-1-3 { color: #352C00 }
-.color-secondary-1-4 { color: #9F8404 }
+.color-secondary-1-4 { color: #9F8404 } */
 
-.color-secondary-2-0 { color: #DB7622 } /* Main Secondary color (2) */
-.color-secondary-2-1 { color: #FFF2E8 }
+/* .color-secondary-2-0 { color: #DB7622 } Main Secondary color (2) */
+/* .color-secondary-2-1 { color: #FFF2E8 }
 .color-secondary-2-2 { color: #FFBE87 }
 .color-secondary-2-3 { color: #351800 }
-.color-secondary-2-4 { color: #9F4A04 }
+.color-secondary-2-4 { color: #9F4A04 } */
 
 
-.rgba-primary-0 { color: rgba( 36, 69,146,1) } /* Main Primary color */
-.rgba-primary-1 { color: rgba(206,212,225,1) }
+/* .rgba-primary-0 { color: rgba( 36, 69,146,1) } Main Primary color */
+/* .rgba-primary-1 { color: rgba(206,212,225,1) }
 .rgba-primary-2 { color: rgba(101,123,173,1) }
 .rgba-primary-3 { color: rgba( 1, 11, 36,1) }
-.rgba-primary-4 { color: rgba( 13, 41,106,1) }
+.rgba-primary-4 { color: rgba( 13, 41,106,1) } */
 
-.rgba-secondary-1-0 { color: rgba(219,187, 34,1) } /* Main Secondary color (1) */
-.rgba-secondary-1-1 { color: rgba(255,251,232,1) }
+/* .rgba-secondary-1-0 { color: rgba(219,187, 34,1) } Main Secondary color (1) */
+/* .rgba-secondary-1-1 { color: rgba(255,251,232,1) }
 .rgba-secondary-1-2 { color: rgba(255,234,135,1) }
 .rgba-secondary-1-3 { color: rgba( 53, 44, 0,1) }
-.rgba-secondary-1-4 { color: rgba(159,132, 4,1) }
+.rgba-secondary-1-4 { color: rgba(159,132, 4,1) } */
 
-.rgba-secondary-2-0 { color: rgba(219,118, 34,1) } /* Main Secondary color (2) */
-.rgba-secondary-2-1 { color: rgba(255,242,232,1) }
+/* .rgba-secondary-2-0 { color: rgba(219,118, 34,1) } Main Secondary color (2) */
+/* .rgba-secondary-2-1 { color: rgba(255,242,232,1) }
 .rgba-secondary-2-2 { color: rgba(255,190,135,1) }
 .rgba-secondary-2-3 { color: rgba( 53, 24, 0,1) }
-.rgba-secondary-2-4 { color: rgba(159, 74, 4,1) }
+.rgba-secondary-2-4 { color: rgba(159, 74, 4,1) } */
+
+:root {
+  --primary-main-color: #244592 ;
+  --primary-main-light-color: #CED4E1;
+  --primary-main-mid-color: #657BAD;
+  --primary-main-darkest-color: #010B24;
+  --primary-main-dark-color: #0D296A;
+
+  --secondary-main-color: #DBBB22;
+  --secondary-main-light-color: #FFFBE8;
+  --secondary-main-mid-color: #FFEA87;
+  --secondary-main-darkest-color: #352C00;
+  --secondary-main-dark-color: #9F8404;
+
+  --third-main-color: #DB7622;
+  --third-main-light-color: #FFF2E8;
+  --third-main-mid-color: #FFBE87;
+  --third-main-darkest-color: #351800;
+  --third-main-dark-color: #9F4A04;
+
+  --primary-main-color-rgba: rgba( 36, 69,146,1);
+  --primary-main-light-color-rgba: rgba(206,212,225,1);
+  --primary-main-mid-color-rgba:  rgba(101,123,173,1);
+  --primary-main-darkest-color-rgba: rgba( 1, 11, 36,1);
+  --primary-main-color-dark-rgba: rgba( 13, 41,106,1);
+
+  --secondary-main-color-rgba: rgba(219,187, 34,1);
+  --secondary-main-light-color-rgba: rgba(255,251,232,1);
+  --secondary-main-mid-color-rgba: rgba(255,234,135,1);
+  --secondary-main-darkest-color-rgba: rgba( 53, 44, 0,1);
+  --secondary-main-dark-color-rgba: rgba(159,132, 4,1);
+
+  --third-main-color-rgba: rgba(219,118, 34,1);
+  --third-main-light-color-rgba: rgba(255,242,232,1);
+  --third-main-mid-color-rgba: rgba(255,190,135,1);
+  --third-main-darkest-color-rgba: rgba( 53, 24, 0,1);
+  --third-main-dark-color-rgba: rgba(159, 74, 4,1);
+}
 
 body {
   margin: 0;
