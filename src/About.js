@@ -6,10 +6,7 @@ import DevBio from './DevBio.js';
 
 export default function About() {
   return (
-    <Container
-      style={{
-        border: 'solid 1px #9F4A04'
-      }}>
+    <Container>
       <Row>
         <Col></Col>
         <Col sm={4}><h1>About Us Component</h1></Col>
